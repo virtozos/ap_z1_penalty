@@ -4,7 +4,7 @@ using namespace std;
 
 //oblicza najblizsza potege 2
 long long int teams_increased(long long int teams_knockout_stage) {
-    unsigned  int teams = 1;
+    long long int teams = 1;
     while (teams < teams_knockout_stage)
         teams <<= 1;
     return teams;
